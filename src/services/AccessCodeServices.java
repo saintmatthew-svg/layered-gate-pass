@@ -1,4 +1,4 @@
 package services;
 
-public class AccessCodeServices {
+public interface AccessCodeServices {
 }

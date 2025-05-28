@@ -1,4 +1,4 @@
 package data.repository;
 
-public class Visitors {
+public class AccessCodes {
 }
