@@ -1,7 +1,5 @@
 package data.models;
 
-import data.repository.Visitors;
-
 public class AccessCode {
     private int id;
     private String code;
