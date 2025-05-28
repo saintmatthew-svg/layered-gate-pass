@@ -2,13 +2,13 @@ package data.models;
 
 public class Visitor {
     private String name;
-    private AccessCode accessCode;
+    private String accessCode;
 
     public String getName() {
         return name;
     }
 
-    public AccessCode getAccessCode() {
+    public String getAccessCode() {
         return accessCode;
     }
 
@@ -16,7 +16,7 @@ public class Visitor {
         this.name = name;
     }
 
-    public void setAccessCode(AccessCode accessCode) {
+    public void setAccessCode(String accessCode) {
         this.accessCode = accessCode;
     }
 }

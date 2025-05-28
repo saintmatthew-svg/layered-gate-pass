@@ -1,17 +1,12 @@
 package data.models;
 
-public class AccessCode {
-    private final int id;
-    private String code;
-    private final Visitors visitor;
-    private String description;
+import data.repository.Visitors;
 
-    public AccessCode(int id, String code, Visitors visitor, String description) {
-        this.id = id;
-        this.code = code;
-        this.visitor = visitor;
-        this.description = description;
-    }
+public class AccessCode {
+    private int id;
+    private String code;
+    private String visitor;
+    private String description;
 
     public int getId() {
         return id;
@@ -21,7 +16,7 @@ public class AccessCode {
         return code;
     }
 
-    public Visitors getVisitor() {
+    public String getVisitor() {
         return visitor;
     }
 
